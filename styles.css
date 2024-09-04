@@ -1,0 +1,66 @@
+body{
+    color:black;
+    background: rgb(70, 5, 70);
+    margin: 5px;
+    font-family: "MedievalSharp", cursive;
+
+}
+
+header{
+border-top: solid 5px rgb(6, 0, 0);
+border-bottom: solid 5px black;
+border-left: solid 5px black;
+border-right: solid 5px black;
+padding: 0px;
+font-size: 32px;
+color: black;
+}
+
+.chamada {
+    background: rgb(69, 12, 12);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 20px;
+}
+
+h1 {
+    font-size: 80px
+}
+img {
+    height: 200px;
+}
+.vídeos {
+    display: flex;
+    overflow-x: auto;
+    gap: 3px
+}
+
+.categoria{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 100px;
+}
+
+.vídeos img {
+    opacity: 0.5;
+}
+
+.vídeos img:hover {
+    opacity: 1.0;
+    border: 1px solid yellow;
+}
+.categoria2{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 100px;
+}
+.categoria3{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 100px; 
+}
